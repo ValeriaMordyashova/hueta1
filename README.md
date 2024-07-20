@@ -10,20 +10,10 @@ This template should help get you started developing with Vue 3 in Vite.
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Установка
 
-```sh
-npm install
-```
+Инструкции по установке проекта:
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+```bash
+git clone https://github.com/ValeriaMordyashova/hueta1.git
+cd hueta1
