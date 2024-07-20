@@ -1,0 +1,44 @@
+@import './base.css';
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    text-align: center;
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--color-white);
+    border-radius: 30px;
+}
+
+/* .item:hover {
+    background-color: var(--color-white);
+    cursor: pointer;
+    border-color: var(--color-yellow);
+    color: var(--color-background);
+}
+
+.item:hover h3 {
+    color: var(--color-background);
+} */
+
+.center {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.block_select select { 
+    background-color: var(--color-white);
+    width: 80px;
+    color: var(--color-background);
+    height: 40px;
+    border: 2px solid var(--color-yellow);
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 600;
+}

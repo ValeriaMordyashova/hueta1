@@ -1,0 +1,21 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --color-background: #181818;
+  --color-white: #F5F5DC; 
+  --color-yellow: #FFD700;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-white);
+  background: var(--color-background);
+  font-family: 'Segoe UI';
+}
+
+a, h1, h2, h3, h4, h5, h6{
+  color: var(--color-yellow);
+}
+
+h1 {
+  text-align: center;
+}
